@@ -1,8 +1,13 @@
 import Link from "next/link";
+import MyButton from "./MyButton";
 
 export default function HomePage() {
   return (
-    <p className="text-sl">Your projects</p>
-    
+    <div>
+      <div>
+        <p>Your Projects</p>
+      </div>
+      <MyButton></MyButton>
+    </div>
   );
 }
