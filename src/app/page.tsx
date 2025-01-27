@@ -10,11 +10,5 @@ export default function HomePage() {
       <Project1button></Project1button>
     </div>
     </div>
-    <div>
-      <div>
-        <p>Your Projects</p>
-      </div>
-      <MyButton></MyButton>
-    </div>
   );
 }
