@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Project1button from "./project1button";
+import MyButton from "./MyButton";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,12 @@ export default function HomePage() {
     <div>
       <Project1button></Project1button>
     </div>
+    </div>
+    <div>
+      <div>
+        <p>Your Projects</p>
+      </div>
+      <MyButton></MyButton>
     </div>
   );
 }
