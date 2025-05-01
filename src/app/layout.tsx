@@ -19,10 +19,10 @@ export default function RootLayout({
       <body className="bg-slate-400">
         <h1 className="text-2xl underline font-light">Grapher</h1>
         {children}
+        <div>
+          <Homebutton></Homebutton>
+        </div>
         </body>
-    <div>
-    <Homebutton></Homebutton>
-    </div>
     </html>
   );
 }

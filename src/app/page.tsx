@@ -6,16 +6,15 @@ import Project3button from "./project3button";
 export default function HomePage() {
   return (
     <div>
-    <p className="text-sl">Your projects</p>
-    <div>
-      <Project1button></Project1button>
-    <div>
+      <p className="text-sl">Your projects</p>
+      <div>
+        <Project1button></Project1button>
+      </div>
       <Project2button></Project2button>
-    <div>
+      <div>
       <Project3button></Project3button>
-    </div>
-    </div>
-    </div>
+      </div>
+
     </div>
   );
 }
