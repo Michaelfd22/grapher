@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Project1button from "./project1button";
-import Project2button from "./project2button";
-import Project3button from "./project3button";
+import Project1button from "./_components/project1button";
+import Project2button from "./_components/project2button";
+import Project3button from "./_components/project3button";
 
 export default function HomePage() {
   return (

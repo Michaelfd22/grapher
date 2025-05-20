@@ -3,7 +3,7 @@ import "~/styles/globals.css";
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 
-import Homebutton from "./homebutton";
+import Homebutton from "./_components/homebutton";
 
 export const metadata: Metadata = {
   title: "Create T3 App",

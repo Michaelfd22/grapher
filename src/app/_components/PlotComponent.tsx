@@ -1,10 +1,11 @@
 "use client"
 import React from 'react';
 import Plot from 'react-plotly.js';
+import dynamic from 'next/dynamic';
 
 
 
-const PlotComponent: React.FC = () => {
+const PlotComponentBase: React.FC = () => {
   return (
     <Plot
       data={[
@@ -28,4 +29,8 @@ const PlotComponent: React.FC = () => {
   );
 };
 
-export default PlotComponent;
+const PlotComponent = dynamic(() => Promise.resolve(PlotComponentBase), {
+  ssr: false,
+})
+
+export default PlotComponent
